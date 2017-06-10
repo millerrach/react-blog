@@ -1,0 +1,49 @@
+/* =================================
+   Main - For All Pages
+==================================== */
+
+//Colors
+$gray: rgb(220, 221, 221);
+//$brightBlue: rgb(10, 188, 225);
+//$darkBlue: rgb(26, 44, 56);
+//$green: rgb(53, 218, 154);
+
+//Fonts
+$sansSerif: 'Montserrat', sans-serif;
+$normal: 400;
+$bold: 700;
+$serif: 'Playfair Display', serif;
+
+//Width
+$mobileWidth: 92%;
+$width: 96%;
+
+//Remove all scrollbars
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+  font-family: $serif;
+  color: $gray;
+  //.center {
+  //  text-align: center;
+  //}
+  .sansNormal {
+    font-family: $sansSerif;
+    font-weight: $normal;
+  }
+  .sansBold {
+    font-family: $sansSerif;
+    font-weight: $bold;
+  }
+  //.link {
+  //  color: $brightBlue;
+  //  text-decoration: none;
+  //}
+}
+
+@import "Blog";
+@import "BlogNav";
+

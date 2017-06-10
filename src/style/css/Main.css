@@ -1,0 +1,101 @@
+/* =================================
+   Main - For All Pages
+==================================== */
+::-webkit-scrollbar {
+  display: none; }
+
+body {
+  font-size: 62.5%;
+  /* font-size 1em = 10px on default browser settings */
+  font-family: "Playfair Display", serif;
+  color: #dcdddd; }
+  body .sansNormal {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; }
+  body .sansBold {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700; }
+
+.blogLink {
+  color: #80C0D1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-decoration-color: #80C0D1; }
+
+#blogBody {
+  color: #4A4A4A; }
+  #blogBody #blog {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; }
+    #blogBody #blog #blogTitle {
+      color: #80C0D1;
+      font-size: 3.5em;
+      letter-spacing: 4px; }
+    #blogBody #blog #postContainer {
+      margin-top: 4em; }
+      #blogBody #blog #postContainer a {
+        color: #80C0D1; }
+      #blogBody #blog #postContainer #postTitle {
+        font-weight: 700;
+        font-size: 2.5em;
+        padding-top: .5em;
+        letter-spacing: 3px; }
+      #blogBody #blog #postContainer #date {
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        text-transform: uppercase; }
+      #blogBody #blog #postContainer #authorContainer {
+        font-size: 1.75em;
+        letter-spacing: 2px; }
+        #blogBody #blog #postContainer #authorContainer #author {
+          font-weight: 400;
+          color: #80C0D1;
+          margin-left: -1em; }
+      #blogBody #blog #postContainer #description {
+        font-family: "Playfair Display", serif;
+        font-size: 1.75em;
+        line-height: 1.65; }
+
+/* =================================
+   Media Query
+==================================== */
+@media (min-width: 500px) {
+  #blogBody #blog #postTitle {
+    font-size: 2.75em; }
+  #blogBody #blog #date {
+    font-size: 1.5em; } }
+@media (min-width: 800px) {
+  #blogBody #blog {
+    width: 80%;
+    margin-left: 20%;
+    padding: 4em 8em; }
+    #blogBody #blog #postTitle {
+      font-size: 3em; }
+    #blogBody #blog #date {
+      font-size: 1.5em; }
+    #blogBody #blog #description {
+      font-size: 1.65em; } }
+#drawerLogoContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 2em 0; }
+
+#navigation .menuItemContainer {
+  text-align: center; }
+  #navigation .menuItemContainer .menuTitle {
+    margin-top: 16%;
+    font-family: 'Montserrat', sans-serif;
+    color: #4A4A4A;
+    font-weight: 700; }
+  #navigation .menuItemContainer .summary {
+    margin: 0 12%;
+    padding: 6% 0 16% 0;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+    font-family: "Playfair Display", serif;
+    font-weight: 400; }
+
+/*# sourceMappingURL=Main.css.map */

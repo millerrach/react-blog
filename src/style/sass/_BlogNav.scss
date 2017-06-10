@@ -1,0 +1,31 @@
+//Logo Placement
+#drawerLogoContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+#navigation {
+  .menuItemContainer {
+    text-align: center;
+    .menuTitle {
+      margin-top: 16%;
+      font-family: 'Montserrat', sans-serif;
+      color: $blogGray;
+      font-weight: $bold;
+    }
+    .summary {
+      margin: 0 12%;
+      padding: 6% 0 16% 0;
+      border-bottom: $blogBorder;
+      font-family: $serif;
+      font-weight: $normal;
+    }
+  }
+}
+
+
+
+
+
