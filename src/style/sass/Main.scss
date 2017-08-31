@@ -27,9 +27,6 @@ body {
   font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
   font-family: $serif;
   color: $gray;
-  //.center {
-  //  text-align: center;
-  //}
   .sansNormal {
     font-family: $sansSerif;
     font-weight: $normal;
@@ -38,10 +35,6 @@ body {
     font-family: $sansSerif;
     font-weight: $bold;
   }
-  //.link {
-  //  color: $brightBlue;
-  //  text-decoration: none;
-  //}
 }
 
 @import "Blog";

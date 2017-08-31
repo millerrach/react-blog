@@ -1,8 +1,10 @@
 $green: #58B89D;
 $lightGray: rgba(204, 204, 204, .6);
+
 #responsiveTable {
   font-family: 'Roboto', sans-serif;
   display: inline-block;
+  margin-top: -10px;
   li {
     margin-top: .5em;
     margin-left: .75em;
@@ -62,6 +64,9 @@ $lightGray: rgba(204, 204, 204, .6);
 }
 
 @media (max-width: 600px) {
+  #responsiveTable {
+    font-size: 2em;
+  }
   .details {
     display: none;
   }

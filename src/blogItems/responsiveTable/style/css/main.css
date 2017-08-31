@@ -1,6 +1,7 @@
 #responsiveTable {
   font-family: 'Roboto', sans-serif;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: -10px; }
   #responsiveTable li {
     margin-top: .5em;
     margin-left: .75em; }
@@ -43,6 +44,9 @@
   .origin {
     display: none; } }
 @media (max-width: 600px) {
+  #responsiveTable {
+    font-size: 2em; }
+
   .details {
     display: none; } }
 

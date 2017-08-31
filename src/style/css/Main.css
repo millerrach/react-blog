@@ -69,7 +69,7 @@ body {
     font-size: 1.5em; } }
 @media (min-width: 800px) {
   #blogBody #blog {
-    width: 80%;
+    width: inherit;
     margin-left: 20%;
     padding: 4em 8em; }
     #blogBody #blog #postTitle {
